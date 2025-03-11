@@ -29,7 +29,7 @@
 # 1. Initialize a res var = nums[0] (It is a non-empty list so we can
 # assume there is atleast 1 element)
 # 2. Run a for loop for i in range(1, len(nums))
-# 3. Add the bitwise OR(^) of res and nums[i] to res
+# 3. Add the bitwise XOR(^) of res and nums[i] to res
 # 4. return res (It will be the only number that appears once)
 from typing import List
 class Solution:
